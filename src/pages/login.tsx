@@ -40,7 +40,15 @@ const Login = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-[#592B1A] to-[#592B1A]">
       <div className="w-full max-w-sm p-6 bg-white rounded-lg shadow-md">
-        <h3 className="text-3xl font-bold text-center text-gray">Bem-vindo ao Nhami</h3>
+      <div className="max-w-4xl mx-auto mt-6">
+    <div className="flex justify-center">
+      <img 
+        src="/footermarrom.png" 
+        alt="Footer Image" 
+        className="w-full h-auto object-cover " 
+      />
+    </div>
+  </div>
         <form onSubmit={handleSubmit} className="mt-6">
           <div>
             <input

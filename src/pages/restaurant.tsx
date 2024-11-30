@@ -107,7 +107,7 @@ export default function Restaurant() {
               <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
                 <div
                   className="h-2 bg-yellow-400 rounded-full"
-                  style={{ width: `${(restaurant.rating! / 5) * 100}%` }}
+                  style={{ width: `${(Number(restaurant.rating) / 5) * 100}%` }}
                 ></div>
               </div>
             </div>
